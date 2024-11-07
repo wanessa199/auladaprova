@@ -1,0 +1,23 @@
+:root{
+    --Green-200: hsl(148, 38%, 91%);
+    --Green-600: hsl(169, 79%, 87%);
+    --Red: hsl(0, 66%, 54%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-500: hsl(186, 15%, 59%);
+    --Grey-900: hsl(187, 24%, 22%);
+}
+body{
+    background-color: var(--Green-600);
+    align-items: center;
+}
+
+.container{
+    background-color: var(--White);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 28%;
+    margin-top: 200px;
+    height: 600px;
+    transform: translateX(620px);
+}
